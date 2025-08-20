@@ -30,7 +30,7 @@ if merger.pages:
     merger.write("merged-scans.pdf")
     merger.close()
 else:
-    print("No PDF files to merge.\nCheck your dicom-images folder if it contains valid DICOM files. Exiting...\n")
+    print("No PDF files to merge.\nCheck your images folder if it contains valid DICOM files. Exiting...\n")
     shutil.rmtree("PDF")
     exit(1)
 

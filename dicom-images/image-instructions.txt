@@ -1,0 +1,3 @@
+Hello! 
+
+All your DICOM files have the extension ".dcm". Copy and paste those images here. Alternatively, you can change the "imgFolderPath" in conversion-script.py to point to your DICOM images folder.
